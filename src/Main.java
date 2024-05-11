@@ -8,7 +8,6 @@ public class Main {
         Ravenclaw bob = new Ravenclaw("Bob Marley", 10, 5, 7, 3, 2, 6);
         Griffindor germiona = new Griffindor("Germiona Greinjer", 8, 6, 5, 8, 2);
 
-
         System.out.println(potter);
         potter.innerCompareTo(germiona);
         germiona.compareTo(malfoy);
