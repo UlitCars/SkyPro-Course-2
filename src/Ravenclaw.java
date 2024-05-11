@@ -44,6 +44,7 @@ public class Ravenclaw extends Hogwarts {
 
         @Override
         public String toString () {
-            return super.toString() + ", intelligence = " + intelligence + ", wisdom = " + wisdom + ", wit = " + wit + ", creativity = " + creativity;
+            return super.toString() + ", intelligence = " + intelligence + ", wisdom = "
+                    + wisdom + ", wit = " + wit + ", creativity = " + creativity;
         }
     }

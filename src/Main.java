@@ -11,5 +11,6 @@ public class Main {
         System.out.println(potter);
         potter.innerCompareTo(germiona);
         germiona.compareTo(malfoy);
+
     }
 }

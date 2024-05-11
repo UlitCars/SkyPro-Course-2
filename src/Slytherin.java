@@ -47,6 +47,7 @@ public class Slytherin extends Hogwarts{
     private int scoreSum () {
         return cunning + determination + ambition + resourcefulness + powerLost;
     }
+
     @Override
     public String toString() {
         return super.toString() + ", cunning = " + cunning + ", determination = " + determination + ", ambition = " + ambition + ", resourcefulness = " + resourcefulness + ", powerLost = " + powerLost;

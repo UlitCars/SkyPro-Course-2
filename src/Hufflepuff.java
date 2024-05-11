@@ -35,6 +35,7 @@ public class Hufflepuff extends Hogwarts{
     private int scoreSum () {
         return hardworking + loyalty + honesty;
     }
+
     @Override
     public String toString() {
         return super.toString() + ", hardworking = " + hardworking + ", loyalty = " + loyalty + ", honesty = " + honesty;

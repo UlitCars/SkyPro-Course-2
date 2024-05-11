@@ -20,6 +20,7 @@ public abstract class Hogwarts {
     public int getTransgression() {
         return transgression;
     }
+
     public void compareTo(Hogwarts other){
         if (this.scoreSum() < other.scoreSum()) {
             System.out.println("У студента " + other.getName() + " больше очков.");

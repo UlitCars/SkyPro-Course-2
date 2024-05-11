@@ -35,6 +35,7 @@ public class Griffindor extends Hogwarts {
     private int scoreSum () {
         return nobility + honor + braveriy;
     }
+
     @Override
     public String toString(){
         return super.toString() + ", nobility = " + nobility + ", honor = " + honor + ", bravery = " + braveriy;
