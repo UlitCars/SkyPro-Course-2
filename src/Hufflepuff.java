@@ -41,3 +41,4 @@ public class Hufflepuff extends Hogwarts{
         return super.toString() + ", hardworking = " + hardworking + ", loyalty = " + loyalty + ", honesty = " + honesty;
     }
 }
+

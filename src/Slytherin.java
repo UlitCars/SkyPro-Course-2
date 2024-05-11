@@ -53,3 +53,4 @@ public class Slytherin extends Hogwarts{
         return super.toString() + ", cunning = " + cunning + ", determination = " + determination + ", ambition = " + ambition + ", resourcefulness = " + resourcefulness + ", powerLost = " + powerLost;
     }
 }
+
