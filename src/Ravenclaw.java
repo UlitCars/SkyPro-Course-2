@@ -38,13 +38,13 @@ public class Ravenclaw extends Hogwarts {
         }
     }
 
-        private int scoreSum () {
-            return intelligence + wisdom + wit + creativity;
-        }
-
-        @Override
-        public String toString () {
-            return super.toString() + ", intelligence = " + intelligence + ", wisdom = "
-                    + wisdom + ", wit = " + wit + ", creativity = " + creativity;
-        }
+    private int scoreSum() {
+        return intelligence + wisdom + wit + creativity;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", intelligence = " + intelligence + ", wisdom = "
+                + wisdom + ", wit = " + wit + ", creativity = " + creativity;
+    }
+}

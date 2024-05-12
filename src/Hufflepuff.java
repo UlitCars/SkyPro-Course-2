@@ -31,7 +31,6 @@ public class Hufflepuff extends Hogwarts{
             System.out.println("У студентов равное количество очков");
         }
     }
-
     private int scoreSum () {
         return hardworking + loyalty + honesty;
     }
@@ -41,3 +40,4 @@ public class Hufflepuff extends Hogwarts{
         return super.toString() + ", hardworking = " + hardworking + ", loyalty = " + loyalty + ", honesty = " + honesty;
     }
 }
+
